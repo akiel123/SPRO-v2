@@ -1154,17 +1154,17 @@ END GROUP
  .debug_frame   0x00000578       0xa0 twimaster.o
  .debug_frame   0x00000618       0x5c usart.o
 
-.debug_str      0x00000000      0x696
+.debug_str      0x00000000      0x6cd
  *(.debug_str)
- .debug_str     0x00000000      0x49d HardwareControl.o
-                                0x4fb (size before relaxing)
- .debug_str     0x0000049d      0x13a I2C.o
+ .debug_str     0x00000000      0x477 HardwareControl.o
+                                0x4d5 (size before relaxing)
+ .debug_str     0x00000477      0x197 I2C.o
                                 0x2ed (size before relaxing)
- .debug_str     0x000005d7       0x23 main.o
+ .debug_str     0x0000060e       0x23 main.o
                                 0x1b0 (size before relaxing)
- .debug_str     0x000005fa       0x2e twimaster.o
+ .debug_str     0x00000631       0x2e twimaster.o
                                 0x1f3 (size before relaxing)
- .debug_str     0x00000628       0x6e usart.o
+ .debug_str     0x0000065f       0x6e usart.o
                                 0x207 (size before relaxing)
 
 .debug_loc      0x00000000     0x111a
